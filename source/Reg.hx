@@ -53,6 +53,7 @@ class Reg
 
 		Reg.boardSize = 3;
 		if ((FlxG.save.data != null) && (FlxG.save.data.boardSize != null))
+			if(0 != FlxG.save.data.boardSize)
 			Reg.boardSize = FlxG.save.data.boardSize;
 
 		return 0;

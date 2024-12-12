@@ -23,7 +23,6 @@ class MenuState extends FlxState
 	override public function create():Void
 	{
 		Reg.loadScore();
-		trace(Reg.boardSize);
 		title = new FlxText(50,20, 0, "Tic Tac Grow", 18);
 		title.alignment = CENTER;
 		title.screenCenter(X);
